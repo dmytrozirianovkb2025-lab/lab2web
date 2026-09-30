@@ -1,8 +1,8 @@
 function Header() {
     return (
         <header>
-            <h1>Зірянов Дмитро</h1>
-            <p>Веброзробник</p>
+            <h1>Резюме</h1>
+
         </header>
 
     );

@@ -1,8 +1,12 @@
 function Experience() {
     return (
         <header>
-            <h1>Experience</h1>
-            <p>Вивчаю HTML</p>
+            <h2>Experience</h2>
+            <ul>
+                <li style={{textAlign: 'left'}}>Languages: Python, JavaScript, HTML5, CSS3, SQL,C#</li>
+                <li style={{textAlign: 'left'}}>Tools & OS: Git, GitHub, pycharm, VS Code,macOS</li>
+                <li style={{textAlign: 'left'}}>Databases: Sql</li>
+            </ul>
         </header>
 
     );
