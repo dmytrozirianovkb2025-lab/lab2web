@@ -12,7 +12,7 @@ function Education() {
         </h3>
 
         <p className="mb-3 text-sm font-medium text-black">
-          Напрям: кібербезпека
+          Напрям: кібербезпека,osint, веброзробка, програмування
         </p>
 
         <p className="leading-7 text-slate-600">
