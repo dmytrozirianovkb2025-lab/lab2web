@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="im/myq.svg" type="icon"
+
+
+</head>
+<body class="light-theme">
+    <header  class="header">
+        <div class="header-container">
+            <nav class="header__nav">
+                <img src="im/lala.svg" alt="Логотип" class="logo">
+                <ul class="header__list">
+                    <li class="header__list-item active">
+                        <a href="/">Resume</a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="https://github.com/dmytrozirianovkb2025-lab" target="_blank">GitHub</a>
+                    </li>
+                    <li class="header__list-item">
+                        <a href="https://www.instagram.com/zxrxnxv/" target="_blank">Instagram</a>
+                    </li>
+                </ul>
+                <button id="themeToggleBtn" type="button" class="theme-btn">
+                Змінити тему
+                 </button>
+                <a class="button" href="https://t.me/xxxxxqqqdkd" target="_blank">Contact me</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="ttt">
+            <div class="hero__container">
+                <div class="hero__content">
+                    
+                    <div class="hero__text">
+                        <h1 class="hero__title">
+                            Personal Information
+                        </h1>
+                        
+                        <ul class="hero__description">
+                            <li>Email: dmytro.zirianov.kb.2025@lpnu.ua</li>
+                            <li>Phone: +380 98 123 45 67</li>
+                            <li>City: Lviv, Ukraine</li>
+                            <li>University: National University Lviv Polytechnic</li>
+                            <li>Specialty: Cubersecurity</li>
+                            <li>Age: 18 years</li>
+                            <li>Experience: None</li>
+                            <li>Position: Trainee Fullstack Developer </li>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="skills">
+            <div class="skills__container">
+                <div class="skills__content">
+                    
+                    <div class="skills__text">
+                        <h1 class="skills__title">
+                            Skills
+                        </h1>
+                        <ul class="skills__description">
+                            <li>Web: HTML5, CSS3</li>
+                            <li>Language: Python</li>
+                            <li>Database: Mysql</li>
+                            <li>English: A2</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <section class="reviews" style="padding: 20px; max-width: 800px; margin: 0 auto;">
+            <h2>Employer Reviews</h2>
+            <div id="commentsContainer">Завантаження відгуків...</div>
+        </section>
+    </main>
+    <div id="feedbackModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModalBtn" class="close-btn">&times;</span>
+            <h3>Зворотний зв'язок</h3>
+            <form action="https://formspree.io/f/mnpprggj" method="POST" class="feedback-form">
+                <label>
+                    Ім'я:
+                    <input type="text" name="name" required>
+                </label>
+                <label>
+                    Email:
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    Телефон:
+                    <input type="tel" name="phone" required>
+                </label>
+                <label>
+                    Повідомлення:
+                    <textarea name="message" rows="4" required></textarea>
+                </label>
+                <button type="submit">Надіслати</button>
+            </form>
+        </div>
+    </div>
+
+   
+    <footer style="text-align: center; padding: 20px; border-top: 1px solid #ccc; margin-top: 40px;">
+        <div id="systemInfo"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
